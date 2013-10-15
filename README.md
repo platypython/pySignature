@@ -1,6 +1,6 @@
 pySignature
 ===========
-
+Requires python 2.7, not tested with 3.
 
 Outlook signature generator for Active Directory
 
@@ -18,3 +18,9 @@ This differs from the transport rule method because these signatures appear at t
 instead of at the bottom of the email chain.
 
 I've tested it on XP and 7, hopefully it won't break anything.
+
+Deployment
+===========
+
+This can be compiled very easily into an .exe file using the pyinstaller module. Alternatively portable python can be installed in a
+network location to run the script.
