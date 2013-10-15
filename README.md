@@ -1,8 +1,7 @@
 pySignature
 ===========
-Requires python 2.7, not tested with 3.
 
-Outlook signature generator for Active Directory
+Unify your company's Outlook email signatures with a dynamic signature generator!
 
 Using Tim Golden's excellent active_directory module (http://timgolden.me.uk/python/active_directory.html) pySignature
 pulls data from Active Directory and using Jinja2 templates, creates HTML, RTF, and TXT Outlook signatures for 2003, 2007, 2010,
@@ -26,6 +25,7 @@ This can be compiled very easily into an .exe file using the pyinstaller module.
 network location to run the script.
 
 Requires Tim Golden's active_directory module, Mark Hammond's pywin32 module, and jinja2.
+Requires python 2.7, not tested with 3.
 
 Outlook and HTML
 ===========
