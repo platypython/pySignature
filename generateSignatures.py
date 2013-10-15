@@ -27,8 +27,6 @@ def generate_signatures(signature_path,ad_username):
     state = user.st
     zip = user.postalCode
     mobile = user.mobile
-    print mobile
-    print zip
     #render HTML
     html_rendering = html_template.render(displayName = displayName,title = title,company = company,homePhone = homePhone,
                                 telephoneNumber = telephoneNumber,fax = fax,email = email,website = website,
@@ -70,7 +68,7 @@ def get_env_variables():
         return signature_dir, username
 
 def set_default():
-    # aReg = _winreg.ConnectRegistry(None,_winreg.HKEY_CURRENT_USER)
+
     try:
         outlook_2013_key = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, r"Software\Microsoft\Office\15.0\Common\MailSettings", 0, _winreg.KEY_ALL_ACCESS)
         _winreg.SetValueEx(outlook_2013_key, "NewSignature", 0, _winreg.REG_SZ, "default" )
