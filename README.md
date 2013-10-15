@@ -26,3 +26,8 @@ This can be compiled very easily into an .exe file using the pyinstaller module.
 network location to run the script.
 
 Requires Tim Golden's active_directory module, Mark Hammond's pywin32 module, and jinja2.
+
+Outlook and HTML
+===========
+
+Outlook can't handle a lot of modern HTML techniques, it depends a lot on tables. Test new HTML heavily in Outlook before rolling out.
