@@ -1,0 +1,27 @@
+{{displayName}}
+{{title}}
+{{company}}
+{% if homePhone %}Office: {{homePhone}}{% endif %}
+Phone: {{telephoneNumber}}
+{% if mobile %}Cell: {{mobile}}{% endif %}
+Fax: {{fax}}
+{{email}}
+{{website}}
+http://www.patientcareforum.com
+{{streetAddress}}
+{{city}}, {{state}} {{zip}} 
+
+
+
+Disclaimer: 
+
+This e-mail message contains information from the office of Acme Co
+and may be confidential proprietary information and/or work product doctrine, and which
+is covered by the Electronic Communications Privacy Act, 11 U.S.C. Sections 2510-2521. 
+
+If you are not the intended recipient, please be aware that any disclosure, copying, 
+distribution or use of the contents of this message, and of any attachments, is prohibited.
+If you have received this communication in error, please notify us immediately by return 
+e-mail and purge the original message. 
+
+

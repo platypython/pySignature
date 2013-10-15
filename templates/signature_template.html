@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<body lang="EN-US" xml:lang="EN-US">
+    <table id="main" style="width:300px;height:110px;margin-bottom:10px">
+        <tr>
+            <td style="vertical-align:bottom;text-align: left">
+                <span style='color:#000000;font-size:10.0pt;line-height:100%; font-family:"Arial","sans-serif"'>
+                <strong>{{displayName}}</strong> <br>
+                </span>
+
+                <span style='color:#7F7F7F;line-height:100%;font-size:9.0pt;'>
+                    {{title}}<br>
+                    {{company}}<br>
+                </span>
+
+                <span style='font-size:8.0pt;line-height:100%;font-family:"Arial","sans-serif"; color:#7F7F7F'>
+                    {% if homePhone %}
+                        Office: {{homePhone}}<br />
+                    {% endif %}
+                    Phone:  {{telephoneNumber}}<br />
+                    {% if mobile %}
+                        Cell: {{mobile}}<br />
+                    {% endif %}
+                    Fax:    {{fax}}<br />
+                    {{email}}<br>
+                    <a href="{{website}}">{{website}}</a><br>
+                    <a href="http://www.acme.com">http://www.acme.com</a><br>
+                    {{streetAddress}}<br>
+                    {{city}}, {{state}} {{zip}}
+
+                </span>
+             </td>
+
+        </tr>
+
+    </table>
+    
+    <table style="width:500px;margin-left:15px;">
+        <tr>
+            <td style="color:#7F7F7F;font-size:8.0pt;">
+                <span style="color: #000000">
+                <strong>Disclaimer:</strong>
+                </span>
+                <br>
+                <br>
+                This e-mail message contains information from the office of Acme Company
+                and may be confidential proprietary information and/or work product doctrine, and which
+                is covered by the Electronic Communications Privacy Act, 11 U.S.C. Sections 2510-2521.
+                <br>
+                <br>
+                If you are not the intended recipient, please be aware that any disclosure, copying,
+                distribution or use of the contents of this message, and of any attachments, is prohibited.
+                If you have received this communication in error, please notify us immediately by return
+                e-mail and purge the original message.
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
