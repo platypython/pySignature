@@ -24,3 +24,5 @@ Deployment
 
 This can be compiled very easily into an .exe file using the pyinstaller module. Alternatively portable python can be installed in a
 network location to run the script.
+
+Requires Tim Golden's active_directory module, Mark Hammond's pywin32 module.
