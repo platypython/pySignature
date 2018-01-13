@@ -1,3 +1,5 @@
+This project isn't maintained and hasn't been updated in years. I don't work on Windows desktops anymore. Anyone who would like, feel free to take it over.
+
 pySignature
 ===========
 
